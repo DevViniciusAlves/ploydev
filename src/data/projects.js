@@ -1,0 +1,31 @@
+export const projects = [
+  {
+    id: '01',
+    title: 'gendaz',
+    category: 'Projeto principal · SaaS',
+    summary: 'Plataforma para negócios de atendimento organizarem agenda, clientes, financeiro e relacionamento em uma experiência única. É o principal case da PloyDev.',
+    url: 'https://gendaz.site/',
+    tone: 'mint',
+    featured: true,
+    image: '/projects/gendaz.png',
+    imageAlt: 'Tela real do site gendaz',
+  },
+  {
+    id: '02',
+    title: 'Bakuri',
+    category: 'Gestão de pedidos',
+    summary: 'Aplicação web para organização e acompanhamento de pedidos, construída com foco em clareza operacional e uso direto no dia a dia.',
+    url: 'https://mvpbakuri-4dok.vercel.app/',
+    tone: 'light',
+    image: '/projects/bakuri.png',
+    imageAlt: 'Tela real do site Bakuri',
+  },
+  {
+    id: '03',
+    title: 'Seu projeto pode ser o próximo',
+    category: 'Novo projeto',
+    summary: 'A PloyDev transforma uma necessidade real em uma experiência web organizada, responsiva e pronta para colocar no ar.',
+    url: '',
+    tone: 'dark',
+  },
+];
