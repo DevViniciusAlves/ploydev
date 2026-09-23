@@ -1,6 +1,14 @@
 import { useRef } from 'react';
 
-export default function MagneticLink({ href, children, className = '', target, rel, onClick }) {
+export default function MagneticLink({
+  href,
+  children,
+  className = '',
+  target,
+  rel,
+  onClick,
+  ariaLabel,
+}) {
   const ref = useRef(null);
 
   const move = (event) => {
@@ -9,7 +17,7 @@ export default function MagneticLink({ href, children, className = '', target, r
     const rect = el.getBoundingClientRect();
     const x = event.clientX - (rect.left + rect.width / 2);
     const y = event.clientY - (rect.top + rect.height / 2);
-    el.style.transform = `translate(${x * 0.12}px, ${y * 0.12}px)`;
+    el.style.transform = `translate(${x * 0.1}px, ${y * 0.1}px)`;
   };
 
   const reset = () => {
@@ -26,6 +34,7 @@ export default function MagneticLink({ href, children, className = '', target, r
       onMouseMove={move}
       onMouseLeave={reset}
       onClick={onClick}
+      aria-label={ariaLabel}
     >
       {children}
     </a>

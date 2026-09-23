@@ -1,13 +1,25 @@
 import { useState } from 'react';
 
-const items = [
-  ['Vocês fazem só landing page?', 'Não. A estrutura pode ser institucional, portfólio, página de campanha ou experiência web personalizada. O escopo é definido antes do orçamento.'],
-  ['Como funciona o orçamento?', 'Você chama no WhatsApp, explica o objetivo do projeto e recebe um escopo com prazo, entregáveis e valor. Sem formulário longo.'],
-  ['O site fica responsivo?', 'Sim. O projeto é pensado para desktop e mobile desde o início, com atenção a tipografia, navegação e performance.'],
-  ['Consigo pedir ajustes depois?', 'Sim. O combinado de revisão fica descrito no escopo do projeto para não existir dúvida durante a entrega.'],
+const defaultItems = [
+  [
+    'Vocês fazem só landing page?',
+    'Não. A estrutura pode ser institucional, portfólio, página de campanha ou experiência web personalizada. O escopo é definido antes do orçamento.',
+  ],
+  [
+    'Como funciona o orçamento?',
+    'Você chama no WhatsApp, explica o objetivo do projeto e recebe um escopo com prazo, entregáveis e valor. Sem formulário longo.',
+  ],
+  [
+    'O site fica responsivo?',
+    'Sim. O projeto é pensado para desktop e mobile desde o início, com atenção a tipografia, navegação e performance.',
+  ],
+  [
+    'Consigo pedir ajustes depois?',
+    'Sim. O combinado de revisão fica descrito no escopo do projeto para não existir dúvida durante a entrega.',
+  ],
 ];
 
-export default function FAQ() {
+export default function FAQ({ items = defaultItems }) {
   const [open, setOpen] = useState(0);
 
   return (
@@ -27,7 +39,9 @@ export default function FAQ() {
               <span className="faq-question">{question}</span>
               <span className="faq-answer">{answer}</span>
             </span>
-            <span className="faq-plus">{isOpen ? '−' : '+'}</span>
+            <span className="faq-plus" aria-hidden="true">
+              {isOpen ? '−' : '+'}
+            </span>
           </button>
         );
       })}
