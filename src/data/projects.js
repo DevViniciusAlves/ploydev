@@ -1,7 +1,6 @@
 export const projects = [
   {
     id: 'gendaz',
-    number: '01',
     title: 'gendaz',
     category: 'SaaS · Produto digital',
     summary:
@@ -15,7 +14,6 @@ export const projects = [
   },
   {
     id: 'bakuri',
-    number: '02',
     title: 'Bakuri',
     category: 'Aplicação web · Gestão de pedidos',
     summary:

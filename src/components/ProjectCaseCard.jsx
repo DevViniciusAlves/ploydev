@@ -18,14 +18,11 @@ export default function ProjectCaseCard({ project, align = 'left', eager = false
             height="800"
           />
         </picture>
-        <span className="case-number" aria-hidden="true" data-parallax="0.05">
-          {project.number}
-        </span>
       </div>
 
       <div className="case-copy">
         <p className="eyebrow">
-          {project.number} · {project.category}
+          {project.category}
         </p>
         <h3>{project.title}</h3>
         <p className="case-summary">{project.summary}</p>

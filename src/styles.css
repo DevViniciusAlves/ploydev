@@ -96,7 +96,7 @@ body {
 .page-title {
   font-weight: 500;
   letter-spacing: -0.05em;
-  line-height: 0.98;
+  line-height: 1.02;
 }
 .section-title {
   margin: 16px 0 0;
@@ -241,7 +241,12 @@ body.route-entering .route-transition {
   display: inline-block;
   overflow: hidden;
   vertical-align: bottom;
-  margin-bottom: -0.08em;
+
+  /* Espaço interno para não cortar descendentes como g, j, p, q e y */
+  padding-bottom: 0.16em;
+
+  /* Compensa o padding sem aumentar visualmente o espaçamento */
+  margin-bottom: -0.16em;
 }
 .word-reveal .word-inner {
   display: inline-block;
@@ -479,7 +484,7 @@ a:hover .rolling-text > span:nth-child(2) {
 .hero-title {
   margin: 0;
   font-size: clamp(44px, 6.4vw, 104px);
-  line-height: 0.98;
+  line-height: 1.02;
   letter-spacing: -0.055em;
   font-weight: 500;
   max-width: 1150px;
@@ -575,7 +580,7 @@ a:hover .rolling-text > span:nth-child(2) {
 .manifesto-text {
   margin: 0;
   font-size: clamp(40px, 5vw, 80px);
-  line-height: 0.98;
+  line-height: 1.02;
   letter-spacing: -0.052em;
   max-width: 1050px;
   font-weight: 500;
@@ -627,17 +632,6 @@ a:hover .rolling-text > span:nth-child(2) {
 }
 .case-card:hover .case-media img {
   transform: scale(1.025);
-}
-.case-number {
-  position: absolute;
-  right: 18px;
-  bottom: -14px;
-  font-size: clamp(80px, 8vw, 140px);
-  font-weight: 600;
-  letter-spacing: -0.06em;
-  color: rgba(255, 255, 255, 0.22);
-  line-height: 1;
-  pointer-events: none;
 }
 .case-copy h3 {
   margin: 14px 0 10px;
@@ -904,7 +898,7 @@ a:hover .rolling-text > span:nth-child(2) {
   margin: 0;
   max-width: 1250px;
   font-size: clamp(56px, 8vw, 130px);
-  line-height: 0.9;
+  line-height: 0.98;
   letter-spacing: -0.06em;
   font-weight: 500;
 }

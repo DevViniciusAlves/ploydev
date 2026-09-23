@@ -16,7 +16,7 @@ export default function CaseGendaz() {
       <main className="page">
         <section className="page-hero section-shell">
           <p className="eyebrow" data-reveal>
-            Case 01 · SaaS · Produto digital
+            SaaS · Produto digital
           </p>
           <RevealText as="h1" className="page-title" text="gendaz" />
           <p className="page-lead" data-reveal>

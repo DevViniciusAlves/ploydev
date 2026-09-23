@@ -16,7 +16,7 @@ export default function CaseBakuri() {
       <main className="page">
         <section className="page-hero section-shell">
           <p className="eyebrow" data-reveal>
-            Case 02 · Aplicação web · Gestão de pedidos
+            Aplicação web · Gestão de pedidos
           </p>
           <RevealText as="h1" className="page-title" text="Bakuri" />
           <p className="page-lead" data-reveal>
