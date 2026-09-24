@@ -25,7 +25,7 @@ export default function CaseBakuri() {
           </p>
           <div className="case-hero-links" data-reveal>
             <a
-              href="https://mvpbakuri-4dok.vercel.app/"
+              href="https://bakuri.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="button-primary"

@@ -18,7 +18,7 @@ export const projects = [
     category: 'Aplicação web · Gestão de pedidos',
     summary:
       'Aplicação web desenvolvida para organizar e acompanhar pedidos com uma interface simples e direta para a operação.',
-    url: 'https://mvpbakuri-4dok.vercel.app/',
+    url: 'https://bakuri.vercel.app/',
     caseUrl: '/projetos/bakuri',
     image: '/projects/bakuri.png',
     imageWebp: '/projects/bakuri.webp',
