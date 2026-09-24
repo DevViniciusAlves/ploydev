@@ -10,7 +10,7 @@ export default function Projects() {
     <>
       <SEO
         title="Projetos de desenvolvimento web | PloyDev"
-        description="Conheça projetos web desenvolvidos pela PloyDev, incluindo o gendaz e o Bakuri."
+        description="Conheça projetos web desenvolvidos pela PloyDev, incluindo o Orvalho Chalés, o gendaz e o Bakuri."
         path="/projetos"
       />
       <main className="page">
@@ -20,7 +20,7 @@ export default function Projects() {
           </p>
           <RevealText as="h1" className="page-title" text="Projetos que já colocamos no ar." />
           <p className="page-lead" data-reveal>
-            Dois produtos reais, dois contextos diferentes. Cada um apresentado com tela
+            Três produtos reais, três contextos diferentes. Cada um apresentado com tela
             real, contexto honesto e links para visitar.
           </p>
         </section>

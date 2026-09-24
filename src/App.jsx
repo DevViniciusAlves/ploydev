@@ -5,6 +5,7 @@ import Services from './pages/Services.jsx';
 import ServiceSites from './pages/ServiceSites.jsx';
 import ServiceLandingPages from './pages/ServiceLandingPages.jsx';
 import Projects from './pages/Projects.jsx';
+import CaseOrvalho from './pages/CaseOrvalho.jsx';
 import CaseGendaz from './pages/CaseGendaz.jsx';
 import CaseBakuri from './pages/CaseBakuri.jsx';
 import About from './pages/About.jsx';
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/criacao-de-sites" element={<ServiceSites />} />
         <Route path="/landing-pages" element={<ServiceLandingPages />} />
         <Route path="/projetos" element={<Projects />} />
+        <Route path="/projetos/orvalho" element={<CaseOrvalho />} />
         <Route path="/projetos/gendaz" element={<CaseGendaz />} />
         <Route path="/projetos/bakuri" element={<CaseBakuri />} />
         <Route path="/sobre" element={<About />} />

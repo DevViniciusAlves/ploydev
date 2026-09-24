@@ -5,6 +5,7 @@
   <url><loc>https://ploydev-zeta.vercel.app/criacao-de-sites</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://ploydev-zeta.vercel.app/landing-pages</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://ploydev-zeta.vercel.app/projetos</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ploydev-zeta.vercel.app/projetos/orvalho</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ploydev-zeta.vercel.app/projetos/gendaz</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ploydev-zeta.vercel.app/projetos/bakuri</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ploydev-zeta.vercel.app/sobre</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
