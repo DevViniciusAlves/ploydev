@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
+let isTransitioning = false;
+
 export default function useTransitionNavigate() {
   const navigate = useNavigate();
 
@@ -9,13 +11,9 @@ export default function useTransitionNavigate() {
       return;
     }
 
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (isTransitioning) return;
 
-    if (reduceMotion) {
-      navigate(to);
-      window.scrollTo(0, 0);
-      return;
-    }
+    isTransitioning = true;
 
     document.body.classList.add('route-leaving');
 
@@ -28,6 +26,7 @@ export default function useTransitionNavigate() {
 
       window.setTimeout(() => {
         document.body.classList.remove('route-entering');
+        isTransitioning = false;
       }, 700);
     }, 620);
   };

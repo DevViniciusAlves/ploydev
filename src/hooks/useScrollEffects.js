@@ -108,20 +108,7 @@ export default function useScrollEffects() {
   const location = useLocation();
 
   useEffect(() => {
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
     const cleanupReveal = observeRevealElements();
-
-    if (reduceMotion) {
-      const cleanupProgress = initScrollProgress();
-      const cleanupHeader = initHeaderScrolled();
-      return () => {
-        cleanupReveal();
-        cleanupProgress();
-        cleanupHeader();
-      };
-    }
-
     const cleanupParallax = initParallax();
     const cleanupProgress = initScrollProgress();
     const cleanupHeader = initHeaderScrolled();

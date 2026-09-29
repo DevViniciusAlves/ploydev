@@ -1359,22 +1359,4 @@ a:hover .rolling-text > span:nth-child(2) {
 }
 
 /* ---------- 19 Reduced motion ---------- */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-  [data-reveal],
-  .word-inner,
-  [data-parallax] {
-    opacity: 1 !important;
-    transform: none !important;
-  }
-  .route-transition {
-    display: none !important;
-  }
-}
+
