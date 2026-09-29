@@ -28,7 +28,7 @@ export default function ProjectCaseCard({ project, align = 'left', eager = false
         <p className="case-summary">{project.summary}</p>
         <div className="case-links">
           <TransitionLink to={project.caseUrl} className="case-link">
-            Ver case <span className="case-link-arrow" aria-hidden="true">→</span>
+            Ver case <span className="case-link-arrow" aria-hidden="true">→︎</span>
           </TransitionLink>
           <a
             href={project.url}
@@ -37,7 +37,7 @@ export default function ProjectCaseCard({ project, align = 'left', eager = false
             className="case-link case-link-secondary"
             aria-label={`Abrir projeto ${project.title} em nova aba`}
           >
-            Abrir projeto <span className="case-link-arrow" aria-hidden="true">↗</span>
+            Abrir projeto <span className="case-link-arrow" aria-hidden="true">↗︎</span>
           </a>
         </div>
       </div>

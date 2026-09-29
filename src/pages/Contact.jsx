@@ -62,7 +62,7 @@ export default function Contact() {
               <span className="contact-option-value">
                 {SITE.whatsappDisplay}
                 <span className="contact-option-arrow" aria-hidden="true">
-                  ↗
+                  ↗︎
                 </span>
               </span>
             </a>
@@ -103,7 +103,7 @@ export default function Contact() {
               <span className="contact-option-value">
                 {SITE.email}
                 <span className="contact-option-arrow" aria-hidden="true">
-                  ↗
+                  ↗︎
                 </span>
               </span>
             </a>

@@ -24,7 +24,7 @@ export default function NotFound() {
               Voltar para o início
             </TransitionLink>
             <TransitionLink to="/projetos" className="button-secondary">
-              Ver projetos →
+              Ver projetos →︎
             </TransitionLink>
           </div>
         </section>

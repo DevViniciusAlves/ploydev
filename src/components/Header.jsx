@@ -115,7 +115,7 @@ export default function Header() {
             rel="noreferrer"
             tabIndex={menuOpen ? 0 : -1}
           >
-            Solicitar orçamento · {SITE.whatsappDisplay} ↗
+            Solicitar orçamento · {SITE.whatsappDisplay} ↗︎
           </a>
         </nav>
       </div>

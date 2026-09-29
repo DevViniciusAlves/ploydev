@@ -30,10 +30,10 @@ export default function CaseOrvalho() {
               rel="noreferrer"
               className="button-primary"
             >
-              Abrir projeto ↗
+              Abrir projeto ↗︎
             </a>
             <TransitionLink to="/projetos/gendaz" className="button-secondary">
-              Ver próximo case →
+              Ver próximo case →︎
             </TransitionLink>
           </div>
         </section>

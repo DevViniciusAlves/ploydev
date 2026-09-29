@@ -8,7 +8,7 @@ export default function WhatsAppCTA({ message, label = 'Falar no WhatsApp', magn
     <>
       <span>{label}</span>
       <span>
-        {SITE.whatsappDisplay} <span aria-hidden="true">↗</span>
+        {SITE.whatsappDisplay} <span aria-hidden="true">↗︎</span>
       </span>
     </>
   );

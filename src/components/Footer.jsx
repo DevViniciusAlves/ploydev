@@ -65,7 +65,7 @@ export default function Footer() {
               </svg>
               <span>{SITE.instagramLabel}</span>
               <span className="footer-social-arrow" aria-hidden="true">
-                ↗
+                ↗︎
               </span>
             </a>
           </div>

@@ -57,7 +57,7 @@ export default function Services() {
               <h2>{service.title}</h2>
               <p>{service.text}</p>
               <span className="service-card-link">
-                Entender melhor <span className="case-link-arrow" aria-hidden="true">→</span>
+                Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
               </span>
             </TransitionLink>
           ))}

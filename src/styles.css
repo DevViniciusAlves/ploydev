@@ -1109,7 +1109,7 @@ a:hover .rolling-text > span:nth-child(2) {
   border-top: 1px solid var(--line);
 }
 .check-list li::before {
-  content: "→";
+  content: "→︎";
   position: absolute;
   left: 0;
   color: var(--accent);
@@ -1358,5 +1358,12 @@ a:hover .rolling-text > span:nth-child(2) {
   transform: translate3d(4px, -4px, 0);
 }
 
-/* ---------- 19 Reduced motion ---------- */
+/* ---------- 19 Text rendering safety (prevent emoji arrows) ---------- */
+.case-link-arrow,
+.contact-option-arrow,
+.footer-social-arrow,
+.case-hero-links,
+.check-list li::before {
+  font-variant-emoji: text;
+}
 

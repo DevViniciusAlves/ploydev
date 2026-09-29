@@ -97,7 +97,7 @@ export default function Home() {
               Solicitar orçamento
             </MagneticLink>
             <TransitionLink to="/projetos" className="button-secondary">
-              Ver projetos <span aria-hidden="true">→</span>
+              Ver projetos <span aria-hidden="true">→︎</span>
             </TransitionLink>
           </div>
 
@@ -180,7 +180,7 @@ export default function Home() {
                 <h3>{service.title}</h3>
                 <p>{service.text}</p>
                 <span className="service-card-link">
-                  Entender melhor <span className="case-link-arrow" aria-hidden="true">→</span>
+                  Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
                 </span>
               </TransitionLink>
             ))}
@@ -237,7 +237,7 @@ export default function Home() {
               negócio. Cada projeto começa entendendo o que a página precisa resolver.
             </p>
             <TransitionLink to="/sobre" className="case-link" data-reveal>
-              Conhecer o estúdio <span className="case-link-arrow" aria-hidden="true">→</span>
+              Conhecer o estúdio <span className="case-link-arrow" aria-hidden="true">→︎</span>
             </TransitionLink>
           </div>
         </section>

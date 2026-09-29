@@ -30,10 +30,10 @@ export default function CaseBakuri() {
               rel="noreferrer"
               className="button-primary"
             >
-              Abrir projeto ↗
+              Abrir projeto ↗︎
             </a>
             <TransitionLink to="/projetos/gendaz" className="button-secondary">
-              Ver case gendaz →
+              Ver case gendaz →︎
             </TransitionLink>
           </div>
         </section>

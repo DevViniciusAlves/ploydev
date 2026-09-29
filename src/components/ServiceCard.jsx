@@ -6,7 +6,7 @@ export default function ServiceCard({ title, text, to }) {
       <h3>{title}</h3>
       <p>{text}</p>
       <span className="service-card-link">
-        Entender melhor <span className="case-link-arrow" aria-hidden="true">→</span>
+        Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
       </span>
     </TransitionLink>
   );
