@@ -982,6 +982,16 @@ a:hover .rolling-text > span:nth-child(2) {
 .footer-group a:hover {
   border-color: var(--accent);
 }
+.footer-group .footer-instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-group .footer-instagram-link svg {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
 .footer-social {
   display: grid;
   gap: 16px;

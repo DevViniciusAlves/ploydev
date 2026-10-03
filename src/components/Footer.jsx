@@ -1,6 +1,47 @@
 import TransitionLink from './TransitionLink.jsx';
 import { SITE, createWhatsAppUrl, WHATSAPP_MESSAGES } from '../config/site.js';
 
+function InstagramIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <defs>
+        <linearGradient
+          id="instagram-footer-gradient"
+          x1="0%"
+          y1="100%"
+          x2="100%"
+          y2="0%"
+        >
+          <stop offset="0%" stopColor="#FEDA75" />
+          <stop offset="25%" stopColor="#FA7E1E" />
+          <stop offset="50%" stopColor="#D62976" />
+          <stop offset="75%" stopColor="#962FBF" />
+          <stop offset="100%" stopColor="#4F5BD5" />
+        </linearGradient>
+      </defs>
+      <rect
+        x="4"
+        y="4"
+        width="16"
+        height="16"
+        rx="4.5"
+        stroke="url(#instagram-footer-gradient)"
+        strokeWidth="1.9"
+        fill="none"
+      />
+      <circle
+        cx="12"
+        cy="12"
+        r="3.6"
+        stroke="url(#instagram-footer-gradient)"
+        strokeWidth="1.9"
+        fill="none"
+      />
+      <circle cx="16.8" cy="7.2" r="1.3" fill="url(#instagram-footer-gradient)" />
+    </svg>
+  );
+}
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -37,6 +78,18 @@ export default function Footer() {
               WhatsApp · {SITE.whatsappDisplay}
             </a>
             <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+            {SITE.instagramUrl && (
+              <a
+                className="footer-instagram-link"
+                href={SITE.instagramUrl}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`Seguir a PloyDev no Instagram (${SITE.instagramLabel})`}
+              >
+                <InstagramIcon />
+                <span>Instagram · {SITE.instagramLabel}</span>
+              </a>
+            )}
           </div>
         </nav>
 
@@ -50,19 +103,7 @@ export default function Footer() {
               rel="noreferrer"
               aria-label={`Seguir a PloyDev no Instagram (${SITE.instagramLabel})`}
             >
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <rect
-                  x="4"
-                  y="4"
-                  width="16"
-                  height="16"
-                  rx="4.5"
-                  stroke="currentColor"
-                  strokeWidth="1.7"
-                />
-                <circle cx="12" cy="12" r="3.6" stroke="currentColor" strokeWidth="1.7" />
-                <circle cx="16.8" cy="7.2" r="1.1" fill="currentColor" />
-              </svg>
+              <InstagramIcon />
               <span>{SITE.instagramLabel}</span>
               <span className="footer-social-arrow" aria-hidden="true">
                 ↗︎

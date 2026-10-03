@@ -6,10 +6,9 @@ export const SITE = {
   whatsappNumber: '5565993360300',
   whatsappDisplay: '+55 65 99336-0300',
   email: 'contato@ploydev.top',
-  // Preencher com a URL oficial do perfil quando disponível.
-  // Enquanto estiver vazia, o card do Instagram não é exibido.
-  instagramUrl: '',
-  instagramLabel: 'Instagram',
+  // Perfil oficial no Instagram — exibe o card/link no rodapé.
+  instagramUrl: 'https://www.instagram.com/ploydev/',
+  instagramLabel: '@ploydev',
 };
 
 export function createWhatsAppUrl(
