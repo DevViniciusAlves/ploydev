@@ -190,7 +190,7 @@ Regras:
 
 Se não houver Instagram válido e ativo:
 
-**DESCARTAR.**
+**DESCARTAR IMEDIATAMENTE E BUSCAR OUTRO. SE VC NAO ACHAR O INSTA, DESCARTA ESSE LEAD E COLOCA OUTRO VÁLIDO NO LUGAR. NUNCA ENTREGAR SEM @.**
 
 ### Sinais de Instagram bom para esta versão:
 - posta com frequência (últimos 30-60 dias);
@@ -254,7 +254,7 @@ Nunca entregar:
 
 Se não encontrar o responsável real:
 
-**DESCARTAR O CANDIDATO E PROCURAR OUTRO.**
+**Neste formato (§20): NÃO DESCARTAR — usar `Equipe [NOME DO NEGÓCIO]` e TIRAR qualquer (NOME) / placeholder. Entrega limpa, sem "[NOME]" visível.**
 
 Não inventar ou deduzir o nome.
 
@@ -417,9 +417,26 @@ Não inventar problemas ou oportunidades. Se o cliente já possui site funcional
 
 ---
 
-## 15. ABORDAGEM OFICIAL PARA INSTAGRAM DM (OFICIAL DESTA VERSÃO)
+## 15. ABORDAGEM OFICIAL (PADRÃO DO PRINT — USAR NA ENTREGA)
 
-> Abordagem para DM do Instagram. NÃO substitui as regras de validação (§1–§14, §21–§24). Quando o usuário pedir "abordagem insta", "versão insta", "DM", usar esta estrutura.
+> Abordagem padrão de entrega deste documento é a do §20 (modelo do print). NÃO substitui as regras de validação (§1–§14, §21–§24).
+
+ESTRUTURA OBRIGATÓRIA (4 BLOCOS):
+
+1. `Olá! Tudo bem? Sou Vinicius, da PloyDev Sites profissionais.`
+2. `Estou selecionando alguns negócios de [NICHO] para criar um site profissional ou landing page estratégica e encontrei a [NOME DO NEGÓCIO].`
+3. `A ideia é criar um site que [BENEFÍCIO ESPECÍFICO + PROVA REAL do negócio].`
+4. `Posso te mostrar um exemplo sem compromisso?`
+
+VARIAÇÃO DM CURTA (usar SOMENTE quando o usuário pedir explicitamente "abordagem Ei" / "DM informal"):
+
+```text
+Ei [NOME], eu estava olhando teu perfil e achei legal demais o seu trabalho.
+
+Só notei que você ainda não possui um site, e isso te faz perder muitas vendas. Vivemos na era digital e é muito importante ter uma estrutura profissional pra aumentar as vendas.
+
+O que acha de nós montarmos essa estrutura pra você por um valor praticamente irrisório pelo resultado que isso pode te gerar, faz sentido pra você?
+```
 
 EXEMPLO BASE:
 
@@ -533,9 +550,11 @@ Também não usar na primeira mensagem:
 
 Na primeira abordagem NÃO listar: páginas, funcionalidades, SEO, domínio, hospedagem, tecnologias, animações, integrações, estrutura do site. A primeira mensagem vende a CONVERSA — a proposta vem depois do interesse.
 
-## 18. SEM "INDICAÇÃO" E SEM NOME DA EMPRESA NO PRIMEIRO CONTATO
+## 18. APRESENTAÇÃO OBRIGATÓRIA NO PADRÃO DO PRINT
 
-Nesta versão INSTA NÃO usar "indicação", NÃO usar "Estou selecionando negócios", NÃO se apresentar como "Sou Vinicius, da PloyDev" na primeira mensagem. A abertura é direta de pessoa para pessoa: "Ei [NOME], eu estava olhando teu perfil...".
+No formato oficial de entrega (§20), USAR sempre `Olá! Tudo bem? Sou Vinicius, da PloyDev Sites profissionais.` + `Estou selecionando alguns negócios de [NICHO]...`.
+
+Na variação DM informal "Ei" (só quando pedida), NÃO usar "Sou Vinicius". São dois modos separados.
 
 Se não houver nome real:
 
@@ -566,89 +585,150 @@ Só usar o que foi confirmado olhando o perfil. Não inventar elogio genérico s
 
 ---
 
-## 20. FORMATO FINAL DE ENTREGA (COMO MANDAR OS LEADS — VERSÃO INSTA)
+## 20. FORMATO FINAL DE ENTREGA (OFICIAL — IGUAL AO PRINT)
 
-Para cada lead, mandar exatamente neste modelo:
+Para cada lead, mandar exatamente neste modelo, nesta ordem, com estes rótulos:
 
-### 1. NOME DO NEGÓCIO
+N. NOME — CIDADE (NICHO)
 
-**Tipo:**
+Tipo:
 
-[segmento]
+[segmento específico — ex: Instalação e manutenção de ar-condicionado]
 
-**Região:**
+Região:
 
-[cidade - estado]
+[Cidade (Bairro) - UF — ex: Brasília (Park Sul) - DF]
 
-**Instagram:**
+Instagram:
 
-[@perfil exato — público e ativo]
+[@perfil exato]
 
-**WhatsApp:**
+WhatsApp:
 
-[número exato real e confirmado, com DDI+DDD, copiado da fonte oficial — nunca inventado — mesmo padrão WPP]
+[número exato com DDI+DDD — ex: +55 61 99367-6477]
 
-**Site próprio:**
+Site próprio:
 
-Não encontrado após validação (pesquisa + tentativa de abertura de domínio + link da bio)
+Não encontrado após validação (pesquisa + tentativa de abertura de domínio)
 
-**Responsável:**
+Responsável:
 
-[nome real — usado como [NOME] na abordagem]
+[nome real quando houver — senão: Equipe [NOME DO NEGÓCIO] — SEM parênteses, SEM "(nome...)", SEM "(NOME)", SEM placeholder. TIRA O (NOME) PORRA. Ex: Equipe Climathol]
 
-**Gatilho real encontrado (foco Insta):**
+Gatilho real encontrado:
 
-[problema/oportunidade específica vista no perfil — ex: portfólio só no Instagram, vendas só pelo direct, Linktree como único hub]
+[1 linha curta e específica — ex: 29 avaliações 5.0, instalação/manutenção, só Instagram.]
 
-**Motivo de ser um bom lead:**
+Motivo de ser um bom lead:
 
-[utilidade comercial concreta — por que um site ajudaria esse perfil]
+[1 linha curta — ex: Nota máxima sem vitrine — página com prova social captaria no Google local.]
 
-**Abordagem (INSTAGRAM DM — OFICIAL):**
+Abordagem:
 
 ```text
-Ei [NOME], eu estava olhando teu perfil e achei legal demais o seu trabalho[ + detalhe real quando houver].
+Olá! Tudo bem? Sou Vinicius, da PloyDev Sites profissionais.
 
-Só notei que você ainda não possui um site, e isso te faz perder muitas vendas. Vivemos na era digital e é muito importante ter uma estrutura profissional pra aumentar as vendas.
+Estou selecionando alguns negócios de [nicho] para criar um site profissional ou landing page estratégica e encontrei a [NOME DO NEGÓCIO].
 
-O que acha de nós montarmos essa estrutura pra você por um valor praticamente irrisório pelo resultado que isso pode te gerar, faz sentido pra você?
+A ideia é criar um site que [benefício específico + prova real — ex: apresente melhor os serviços e as avaliações 5 estrelas, facilitando que novos clientes encontrem vocês].
+
+Posso te mostrar um exemplo sem compromisso?
 ```
+
+EXEMPLO OFICIAL (NÃO MUDAR A ESTRUTURA):
+
+10. CLIMATHOL — BRASÍLIA (AR-CONDICIONADO)
+
+Tipo:
+
+Instalação e manutenção de ar-condicionado
+
+Região:
+
+Brasília (Park Sul) - DF
+
+Instagram:
+
+@climathol
+
+WhatsApp:
+
++55 61 99367-6477
+
+Site próprio:
+
+Não encontrado após validação (pesquisa + tentativa de abertura de domínio)
+
+Responsável:
+
+Equipe Climathol
+
+Gatilho real encontrado:
+
+29 avaliações 5.0, instalação/manutenção, só Instagram.
+
+Motivo de ser um bom lead:
+
+Nota máxima sem vitrine — página com prova social captaria no Google local.
+
+Abordagem:
+
+```text
+Olá! Tudo bem? Sou Vinicius, da PloyDev Sites profissionais.
+
+Estou selecionando alguns negócios de climatização para criar um site profissional ou landing page estratégica e encontrei a Climathol.
+
+A ideia é criar um site que apresente melhor os serviços e as avaliações 5 estrelas, facilitando que novos clientes encontrem vocês.
+
+Posso te mostrar um exemplo sem compromisso?
+```
+
+Regras do formato:
+1. Título sempre: `N. NOME — CIDADE (NICHO)` em maiúsculas.
+2. Rótulos com dois-pontos, valor na linha de baixo, com linha em branco entre blocos (igual ao print).
+3. Gatilho e Motivo: 1 linha cada, curtos, específicos, sem texto longo.
+4. Abordagem sempre no padrão `Olá! Tudo bem? Sou Vinicius... Estou selecionando... encontrei a X... A ideia é criar um site que... Posso te mostrar um exemplo sem compromisso?` — personalizar apenas [nicho], [NOME DO NEGÓCIO] e [benefício específico].
+5. Sem preço na abordagem deste formato. Sem técnico (SEO, domínio, hospedagem).
+6. REGRA DO RESPONSÁVEL SEM NOME: quando NÃO achar o nome real, TIRA O (NOME) — usar apenas `Equipe [NOME DO NEGÓCIO]`, sem parênteses, sem "(nome não público...)", sem "[NOME]", sem placeholder. NUNCA deixar "(NOME)", "[NOME]" ou "(nome...)" visível na entrega. NÃO descartar por isso neste formato (exceção à §9).
+7. Na abordagem e no título, NUNCA deixar placeholder à mostra. Se não tem o dado, tira e escreve limpo.
 
 ---
 
-## 21. NUNCA ENTREGAR CANDIDATO INCOMPLETO (O QUE FILTRAR / O QUE MANDAR)
+## 21. NUNCA ENTREGAR CANDIDATO INCOMPLETO (O QUE FILTRAR / O QUE MANDAR — MESMAS REGRAS DO WPP + INSTA)
+
+Espelha literalmente o §21 do `filtro_busca_leads_ploydev_atualizado.md`, acrescido do Instagram.
 
 Descartar se faltar ou falhar:
 
-- responsável real;
-- Instagram real, público e ativo;
-- WhatsApp confirmado com número exato (sem invenção — mesmo padrão WPP);
-- site próprio funcional (pesquisar + abrir domínio + link da bio; se tiver, descartar);
-- atividade comercial (principalmente no Instagram);
+- responsável real (nesta versão aceita `Equipe [NOME DO NEGÓCIO]` limpo quando não houver nome público — sem placeholder);
+- Instagram real, público e ativo (REGRA REFORÇADA — ver abaixo);
+- WhatsApp confirmado com número exato (sem invenção — mesma regra WPP);
+- site próprio funcional (pesquisar + abrir domínio; se tiver, descartar — mesma regra WPP);
+- atividade comercial;
 - nicho;
 - região;
-- gatilho real focado no Insta;
+- gatilho real;
 - utilidade comercial;
 - confirmação suficiente dos dados.
 
-O que filtrar (eliminar):
+O que filtrar (eliminar) — mesmas do WPP + Insta:
 
 - com site próprio funcional;
-- sem Instagram válido/ativo;
-- perfil privado / parado;
+- SEM INSTAGRAM VÁLIDO/ATIVO → DESCARTAR IMEDIATAMENTE E BUSCAR OUTRO (se não achar o Insta, descarta esse lead e coloca outro válido no lugar — nunca entregar sem @);
+- perfil privado / parado / abandonado / sem posts recentes;
 - sem WhatsApp confirmado;
 - com número placeholder/fake;
-- sem responsável real;
+- sem responsável (exceto formato `Equipe X` limpo permitido no §20);
 - inativo/fechado/duplicado (inclusive duplicado da base WPP);
 - dado inventado ou inferido.
 
 O que mandar (só lead completo):
 
-- negócio real + ativo + Instagram ativo + sem site + WhatsApp exato + responsável + gatilho real focado no Insta + abordagem DM personalizada.
+- negócio real + ativo + Instagram ativo + sem site + WhatsApp exato + responsável (ou Equipe X) + gatilho real + abordagem no padrão do print (§20).
 
-Não colocar observações do tipo "não encontrei o responsável" ou "instagram não encontrado".
+Não colocar observações do tipo "não encontrei o responsável" ou "instagram não encontrado" ou "[NOME]".
 
-O candidato simplesmente não entra.
+O candidato simplesmente não entra. Se faltar Insta: DESCARTA E BUSCA OUTRO ATÉ COMPLETAR A QUANTIDADE SÓ COM VÁLIDOS.
 
 ---
 
@@ -678,39 +758,40 @@ Somente encerrar quando existirem 5 leads que cumpram TODOS os filtros.
 
 ---
 
-## 23. CHECKLIST FINAL — VALIDAÇÃO ANTES DA ENTREGA (VERSÃO INSTA)
+## 23. CHECKLIST FINAL — VALIDAÇÃO ANTES DA ENTREGA (ESPELHO DO WPP + INSTA)
 
-Antes de colocar qualquer lead na resposta final, confirmar TUDO:
+Mesmo checklist do `filtro_busca_leads_ploydev_atualizado.md` §23, mais Insta. Antes de colocar qualquer lead na resposta final, confirmar TUDO:
 
 [ ] Nicho correto?
 [ ] Região correta?
-[ ] Google Maps consultado (descoberta)?
-[ ] Instagram aberto e validado? (perfil real, público, ativo?)
+[ ] Google Maps consultado?
+[ ] Site indicado no Google Maps verificado e aberto?
+[ ] Negócio real?
+[ ] Negócio ativo?
+[ ] Instagram OBRIGATÓRIO: real + público + ativo? (se NÃO → DESCARTAR E TROCAR POR OUTRO VÁLIDO)
+[ ] Instagram aberto e @ exato copiado?
 [ ] Posts recentes confirmados?
 [ ] Bio + link da bio verificados e abertos?
 [ ] Linktree/Beacons verificados e abertos quando existirem?
-[ ] Site indicado no Google Maps verificado e aberto?
-[ ] Negócio real?
-[ ] Negócio ativo (principalmente no Insta)?
-[ ] WhatsApp real com número exato? (mesmo padrão WPP)
+[ ] WhatsApp real com número exato? (mesma regra WPP)
 [ ] WhatsApp confirmado na fonte oficial (sem inventar)?
 [ ] Número pertence ao negócio (conferido no link wa.me)?
 [ ] Não é número placeholder/fake?
-[ ] Responsável real confirmado? (primeiro nome para "Ei [NOME]")
-[ ] Nome correto?
+[ ] Responsável confirmado? (nome real ou `Equipe X` limpo, sem placeholder)
+[ ] Nome correto e sem "[NOME]" visível?
+[ ] Outras redes relevantes verificadas?
 [ ] Google pesquisado (nome / nome+cidade / nome+telefone / nome+site / nome+domínio / nome+instagram)?
 [ ] Possíveis domínios relacionados ao nome procurados e testados?
 [ ] Confirmei que nenhum deles abre site próprio funcional?
-[ ] Gatilho real focado no Insta encontrado?
-[ ] Problema/oportunidade realmente observado no perfil?
-[ ] Utilidade comercial clara?
-[ ] Não foi enviado anteriormente (nem na base WPP nem na base INSTA)?
-[ ] Nenhum dado inventado (@, WhatsApp, nome)?
-[ ] Abordagem no padrão INSTA DM (3 blocos)?
-[ ] Abordagem com primeiro nome real + detalhe real quando possível?
-[ ] Abordagem termina com pergunta?
-[ ] Abordagem curta para DM?
-[ ] Quantidade solicitada atingida só com leads válidos?
+[ ] Gatilho real encontrado? (1 linha, específico)
+[ ] Problema/oportunidade realmente observado?
+[ ] Utilidade comercial clara? (1 linha)
+[ ] Não foi enviado anteriormente? (nem base WPP nem INSTA)
+[ ] Nenhum dado inventado?
+[ ] Abordagem no padrão do print (§20)?
+[ ] Abordagem curta, sem preço, sem técnico?
+[ ] Formato de entrega igual ao print (rótulos + linhas em branco)?
+[ ] Quantidade solicitada atingida SÓ com leads válidos (com Insta)?
 
 Se houver qualquer dúvida razoável sobre site próprio, investigar mais antes de aceitar. A prioridade é a VALIDADE DO LEAD, não a velocidade.
 
@@ -720,25 +801,26 @@ Se qualquer critério eliminatório falhar:
 
 ---
 
-## 24. REGRA FINAL ABSOLUTA
+## 24. REGRA FINAL ABSOLUTA (MESMAS DO WPP + REFORÇO INSTA)
 
-Nunca:
+Nunca (lista literal do WPP §24 + Insta):
 
-- inventar dados (@, WhatsApp, nome);
+- inventar dados;
 - inferir WhatsApp;
 - completar ou trocar dígitos de WhatsApp;
 - usar número placeholder/fake;
 - usar telefone como WhatsApp;
-- entregar perfil privado / parado como lead;
-- entregar responsável desconhecido;
+- entregar responsável desconhecido (exceto `Equipe X` limpo permitido no §20);
 - entregar empresa com site funcional;
-- repetir cliente (nem da base WPP);
+- entregar lead SEM INSTAGRAM — SE NÃO ACHAR O INSTA, DESCARTA ESSE LEAD E BUSCA OUTRO VÁLIDO NO LUGAR;
+- entregar perfil privado / parado como lead;
+- repetir cliente (nem da base WPP nem INSTA);
 - parar cedo;
 - pesquisar apenas uma cidade;
 - depender de uma única fonte;
 - criar problema genérico;
-- copiar a mesma abordagem para todos sem adaptar o 1º bloco;
-- usar tom corporativo na DM ("Prezado", "Somos empresa especializada...").
+- copiar a mesma abordagem para todos;
+- deixar "[NOME]", "(NOME)" ou placeholder visível.
 
 Se um candidato falhar:
 
