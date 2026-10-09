@@ -68,15 +68,17 @@ export default function ServiceSites() {
           </p>
         </section>
 
-        <section className="section-shell split" aria-label="O que pode incluir">
-          <h2 data-reveal>O que pode incluir</h2>
-          <ul className="check-list">
-            {includes.map((item) => (
-              <li key={item} data-reveal>
-                {item}
-              </li>
-            ))}
-          </ul>
+        <section className="dark-band" aria-label="O que pode incluir">
+          <div className="section-shell split">
+            <h2 data-reveal>O que pode incluir</h2>
+            <ul className="check-list">
+              {includes.map((item) => (
+                <li key={item} data-reveal>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
 
         <section className="section-shell split" aria-label="Como funciona">

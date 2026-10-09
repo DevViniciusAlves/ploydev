@@ -25,8 +25,10 @@ export default function Projects() {
           </p>
         </section>
 
-        <section className="section-shell" aria-label="Lista de projetos">
-          <HoverExpand items={projects} />
+        <section className="dark-band" aria-label="Lista de projetos">
+          <div className="section-shell">
+            <HoverExpand items={projects} />
+          </div>
         </section>
 
         <section className="contact">

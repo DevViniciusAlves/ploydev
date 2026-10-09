@@ -110,14 +110,16 @@ export default function Contact() {
           </div>
         </section>
 
-        <section className="section-shell split" aria-label="Como funciona o contato">
-          <h2 data-reveal>O que enviar</h2>
-          <ul className="check-list">
-            <li data-reveal>O que sua empresa faz</li>
-            <li data-reveal>O objetivo da página ou projeto</li>
-            <li data-reveal>Referências do que você gosta, se tiver</li>
-            <li data-reveal>Prazo ideal para colocar no ar</li>
-          </ul>
+        <section className="dark-band" aria-label="Como funciona o contato">
+          <div className="section-shell split">
+            <h2 data-reveal>O que enviar</h2>
+            <ul className="check-list">
+              <li data-reveal>O que sua empresa faz</li>
+              <li data-reveal>O objetivo da página ou projeto</li>
+              <li data-reveal>Referências do que você gosta, se tiver</li>
+              <li data-reveal>Prazo ideal para colocar no ar</li>
+            </ul>
+          </div>
         </section>
 
         <section className="help section-shell" aria-label="Perguntas frequentes">

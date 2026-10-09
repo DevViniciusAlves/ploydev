@@ -51,16 +51,18 @@ export default function Services() {
           </p>
         </section>
 
-        <section className="section-shell services-grid" aria-label="Lista de serviços">
-          {services.map((service) => (
-            <TransitionLink key={service.title} to={service.to} className="service-card">
-              <h2>{service.title}</h2>
-              <p>{service.text}</p>
-              <span className="service-card-link">
-                Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
-              </span>
-            </TransitionLink>
-          ))}
+        <section className="dark-band" aria-label="Lista de serviços">
+          <div className="section-shell services-grid">
+            {services.map((service) => (
+              <TransitionLink key={service.title} to={service.to} className="service-card">
+                <h2>{service.title}</h2>
+                <p>{service.text}</p>
+                <span className="service-card-link">
+                  Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
+                </span>
+              </TransitionLink>
+            ))}
+          </div>
         </section>
 
         <section className="contact">

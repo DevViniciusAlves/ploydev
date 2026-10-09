@@ -23,21 +23,23 @@ export default function About() {
           />
         </section>
 
-        <section className="section-shell about-body" aria-label="Sobre a PloyDev">
-          <p data-reveal>
-            A PloyDev é um estúdio de desenvolvimento web focado em criar experiências
-            digitais profissionais para empresas que querem apresentar melhor o próprio
-            negócio.
-          </p>
-          <p data-reveal>
-            Cada projeto começa entendendo o que a página precisa resolver. A partir disso,
-            estrutura, interface, responsividade e desenvolvimento são construídos de forma
-            integrada.
-          </p>
-          <p data-reveal>
-            A proposta é evitar tanto o excesso visual quanto soluções genéricas. Cada
-            decisão precisa ter um motivo claro para existir.
-          </p>
+        <section className="dark-band" aria-label="Sobre a PloyDev">
+          <div className="section-shell about-body">
+            <p data-reveal>
+              A PloyDev é um estúdio de desenvolvimento web focado em criar experiências
+              digitais profissionais para empresas que querem apresentar melhor o próprio
+              negócio.
+            </p>
+            <p data-reveal>
+              Cada projeto começa entendendo o que a página precisa resolver. A partir disso,
+              estrutura, interface, responsividade e desenvolvimento são construídos de forma
+              integrada.
+            </p>
+            <p data-reveal>
+              A proposta é evitar tanto o excesso visual quanto soluções genéricas. Cada
+              decisão precisa ter um motivo claro para existir.
+            </p>
+          </div>
         </section>
 
         <section className="contact">

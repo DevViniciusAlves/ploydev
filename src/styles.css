@@ -57,6 +57,13 @@ button {
   --paper-2: #efefe9;
   --ink: #132746;
   --ink-soft: #526071;
+  --navy-950: #081426;
+  --navy-900: #0b1e38;
+  --navy-800: #132746;
+  --on-dark: #f7f7f4;
+  --on-dark-soft: rgba(247, 247, 244, 0.68);
+  --on-dark-faint: rgba(247, 247, 244, 0.55);
+  --dark-line: rgba(247, 247, 244, 0.14);
   --accent: #1db697;
   --accent-soft: #cceee5;
   --line: rgba(19, 39, 70, 0.15);
@@ -179,6 +186,134 @@ button:focus-visible {
 .button-large {
   font-size: 16px;
   padding: 20px 36px;
+}
+
+/* ---------- 04b Dark band (azul quase preto PloyDev) ---------- */
+.dark-band {
+  background:
+    radial-gradient(900px 420px at 85% -10%, rgba(29, 182, 151, 0.16), transparent 60%),
+    radial-gradient(700px 500px at 0% 110%, rgba(29, 182, 151, 0.08), transparent 60%),
+    linear-gradient(180deg, var(--navy-900), var(--navy-950));
+  color: var(--on-dark);
+  border-top: 1px solid rgba(247, 247, 244, 0.08);
+  border-bottom: 1px solid rgba(247, 247, 244, 0.08);
+}
+.dark-band .eyebrow,
+.dark-band .manifesto-label,
+.dark-band .section-number,
+.dark-band .process-row span,
+.dark-band .faq-index,
+.dark-band .contact-option-label {
+  color: var(--on-dark-faint);
+}
+.dark-band .section-title,
+.dark-band .section-title-sm,
+.dark-band .manifesto-text,
+.dark-band .split h2,
+.dark-band .process-row h3,
+.dark-band .service-card h2,
+.dark-band .service-card h3,
+.dark-band .case-copy h3,
+.dark-band .faq-question,
+.dark-band .about-body p,
+.dark-band .home-about-grid p,
+.dark-band .split p {
+  color: var(--on-dark);
+}
+.dark-band .page-lead,
+.dark-band .case-summary,
+.dark-band .service-card p,
+.dark-band .process-row p,
+.dark-band .faq-answer,
+.dark-band .home-about-grid p,
+.dark-band .about-body p,
+.dark-band .split p {
+  color: var(--on-dark-soft);
+}
+.dark-band .work,
+.dark-band.work,
+.dark-band .services,
+.dark-band.services,
+.dark-band .process,
+.dark-band.process,
+.dark-band .help,
+.dark-band.help,
+.dark-band .home-about,
+.dark-band.home-about {
+  border-bottom-color: transparent;
+}
+.dark-band .service-card {
+  background: rgba(247, 247, 244, 0.04);
+  border-color: var(--dark-line);
+}
+.dark-band .service-card:hover {
+  border-color: rgba(29, 182, 151, 0.6);
+  transform: translate3d(0, -4px, 0);
+  background: rgba(247, 247, 244, 0.06);
+}
+.dark-band .service-card-link {
+  color: var(--on-dark);
+}
+.dark-band .process-row,
+.dark-band .faq-item,
+.dark-band .check-list li,
+.dark-band .check-list li:first-child,
+.dark-band .manifesto,
+.dark-band .split {
+  border-color: var(--dark-line);
+}
+.dark-band .case-link {
+  border-color: var(--on-dark);
+  color: var(--on-dark);
+}
+.dark-band .case-link-secondary {
+  border-color: var(--dark-line);
+  color: var(--on-dark-soft);
+}
+.dark-band .button-secondary {
+  border-color: rgba(247, 247, 244, 0.3);
+  color: var(--on-dark);
+}
+.dark-band .button-secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.dark-band .contact-option {
+  background: rgba(247, 247, 244, 0.04);
+  border-color: var(--dark-line);
+}
+.dark-band .contact-option:hover {
+  border-color: rgba(29, 182, 151, 0.6);
+}
+.dark-band .contact-option-title,
+.dark-band .contact-option-icon {
+  color: var(--on-dark);
+}
+.dark-band .contact-option-value {
+  color: var(--on-dark-soft);
+}
+.dark-band .faq-item {
+  background: transparent;
+}
+.dark-band > .section-shell {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.dark-band > .section-shell.manifesto {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.dark-band > .section-shell.services,
+.dark-band > .section-shell.process,
+.dark-band > .section-shell.work,
+.dark-band > .section-shell.help,
+.dark-band > .section-shell.home-about,
+.dark-band > .section-shell.about-body {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.dark-band .faq-plus {
+  color: var(--on-dark);
 }
 
 /* ---------- 05 Motion ---------- */

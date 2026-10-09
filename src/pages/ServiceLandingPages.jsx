@@ -50,15 +50,17 @@ export default function ServiceLandingPages() {
           </div>
         </section>
 
-        <section className="section-shell split" aria-label="Estrutura">
-          <h2 data-reveal>Estrutura típica</h2>
-          <ul className="check-list">
-            <li data-reveal>Apresentação direta da oferta</li>
-            <li data-reveal>Benefícios e diferenciais organizados</li>
-            <li data-reveal>Prova e contexto do negócio</li>
-            <li data-reveal>Chamadas para contato ao longo da página</li>
-            <li data-reveal>Versão mobile priorizada</li>
-          </ul>
+        <section className="dark-band" aria-label="Estrutura">
+          <div className="section-shell split">
+            <h2 data-reveal>Estrutura típica</h2>
+            <ul className="check-list">
+              <li data-reveal>Apresentação direta da oferta</li>
+              <li data-reveal>Benefícios e diferenciais organizados</li>
+              <li data-reveal>Prova e contexto do negócio</li>
+              <li data-reveal>Chamadas para contato ao longo da página</li>
+              <li data-reveal>Versão mobile priorizada</li>
+            </ul>
+          </div>
         </section>
 
         <section className="section-shell split" aria-label="Como funciona">

@@ -108,15 +108,17 @@ export default function Home() {
 
         <TechMarquee />
 
-        <section className="manifesto section-shell">
-          <div className="manifesto-label" data-reveal>
-            Posicionamento
+        <section className="dark-band">
+          <div className="section-shell manifesto">
+            <div className="manifesto-label" data-reveal>
+              Posicionamento
+            </div>
+            <RevealText
+              as="p"
+              className="manifesto-text"
+              text="Um bom site não precisa gritar. Precisa ter clareza, ritmo e intenção."
+            />
           </div>
-          <RevealText
-            as="p"
-            className="manifesto-text"
-            text="Um bom site não precisa gritar. Precisa ter clareza, ritmo e intenção."
-          />
         </section>
 
         <section className="work section-shell" aria-label="Projetos selecionados">
@@ -139,33 +141,35 @@ export default function Home() {
           <HoverExpand items={projects} />
         </section>
 
-        <section className="services section-shell" aria-label="Serviços">
-          <div className="section-head">
-            <div className="section-number" data-reveal>
-              02
+        <section className="dark-band" aria-label="Serviços">
+          <div className="section-shell services">
+            <div className="section-head">
+              <div className="section-number" data-reveal>
+                02
+              </div>
+              <div>
+                <p className="eyebrow" data-reveal>
+                  Serviços
+                </p>
+                <RevealText
+                  as="h2"
+                  className="section-title"
+                  text="O que podemos construir para sua empresa."
+                />
+              </div>
             </div>
-            <div>
-              <p className="eyebrow" data-reveal>
-                Serviços
-              </p>
-              <RevealText
-                as="h2"
-                className="section-title"
-                text="O que podemos construir para sua empresa."
-              />
-            </div>
-          </div>
 
-          <div className="services-grid">
-            {services.map((service) => (
-              <TransitionLink key={service.title} to={service.to} className="service-card">
-                <h3>{service.title}</h3>
-                <p>{service.text}</p>
-                <span className="service-card-link">
-                  Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
-                </span>
-              </TransitionLink>
-            ))}
+            <div className="services-grid">
+              {services.map((service) => (
+                <TransitionLink key={service.title} to={service.to} className="service-card">
+                  <h3>{service.title}</h3>
+                  <p>{service.text}</p>
+                  <span className="service-card-link">
+                    Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
+                  </span>
+                </TransitionLink>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -196,7 +200,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="home-about section-shell" aria-label="Sobre resumido">
+        <section className="dark-band" aria-label="Sobre resumido">
+          <div className="section-shell home-about">
           <div className="section-head">
             <div className="section-number" data-reveal>
               04
@@ -221,6 +226,7 @@ export default function Home() {
             <TransitionLink to="/sobre" className="case-link" data-reveal>
               Conhecer o estúdio <span className="case-link-arrow" aria-hidden="true">→︎</span>
             </TransitionLink>
+          </div>
           </div>
         </section>
 
