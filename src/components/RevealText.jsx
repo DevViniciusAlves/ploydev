@@ -1,13 +1,9 @@
-export default function RevealText({ text, as: Tag = 'div', className = '' }) {
+import BlurReveal from './BlurReveal.jsx';
+
+export default function RevealText({ text, as: Tag = 'div', className = '', delay = 0, speedReveal = 1.5 }) {
   return (
-    <Tag className={`word-reveal ${className}`}>
-      {text.split(' ').map((word, index) => (
-        <span className="word-mask" key={`${word}-${index}`}>
-          <span className="word-inner" style={{ '--word-index': index }}>
-            {word}&nbsp;
-          </span>
-        </span>
-      ))}
-    </Tag>
+    <BlurReveal as={Tag} className={className} delay={delay} speedReveal={speedReveal}>
+      {text}
+    </BlurReveal>
   );
 }

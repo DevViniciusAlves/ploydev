@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export function observeRevealElements(root = document) {
-  const elements = root.querySelectorAll('[data-reveal], .word-reveal');
+  const elements = root.querySelectorAll('[data-reveal], .word-reveal, .blur-reveal');
 
   if (!('IntersectionObserver' in window)) {
     elements.forEach((element) => {

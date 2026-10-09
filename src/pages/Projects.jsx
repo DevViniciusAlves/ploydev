@@ -1,7 +1,7 @@
 import SEO from '../components/SEO.jsx';
 import RevealText from '../components/RevealText.jsx';
 import WhatsAppCTA from '../components/WhatsAppCTA.jsx';
-import ProjectCaseCard from '../components/ProjectCaseCard.jsx';
+import HoverExpand from '../components/HoverExpand.jsx';
 import { projects } from '../data/projects.js';
 import { WHATSAPP_MESSAGES } from '../config/site.js';
 
@@ -26,16 +26,7 @@ export default function Projects() {
         </section>
 
         <section className="section-shell" aria-label="Lista de projetos">
-          <div className="case-list">
-            {projects.map((project, index) => (
-              <ProjectCaseCard
-                key={project.id}
-                project={project}
-                align={index % 2 === 0 ? 'left' : 'right'}
-                eager={index === 0}
-              />
-            ))}
-          </div>
+          <HoverExpand items={projects} />
         </section>
 
         <section className="contact">

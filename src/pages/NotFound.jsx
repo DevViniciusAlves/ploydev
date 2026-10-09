@@ -1,4 +1,5 @@
 import SEO from '../components/SEO.jsx';
+import RevealText from '../components/RevealText.jsx';
 import TransitionLink from '../components/TransitionLink.jsx';
 
 export default function NotFound() {
@@ -15,7 +16,7 @@ export default function NotFound() {
           <p className="not-found-code" aria-hidden="true">
             404
           </p>
-          <h1 className="page-title">Essa página não existe.</h1>
+          <RevealText as="h1" className="page-title" text="Essa página não existe." />
           <p className="page-lead">
             O link pode ter mudado ou sido digitado errado. Estes caminhos funcionam:
           </p>

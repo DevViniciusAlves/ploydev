@@ -4,11 +4,10 @@ import MagneticLink from '../components/MagneticLink.jsx';
 import TransitionLink from '../components/TransitionLink.jsx';
 import FAQ from '../components/FAQ.jsx';
 import WhatsAppCTA from '../components/WhatsAppCTA.jsx';
-import ProjectCaseCard from '../components/ProjectCaseCard.jsx';
+import HoverExpand from '../components/HoverExpand.jsx';
+import TechMarquee from '../components/TechMarquee.jsx';
 import { projects } from '../data/projects.js';
 import { SITE, createWhatsAppUrl, WHATSAPP_MESSAGES } from '../config/site.js';
-
-const capabilities = ['Design + desenvolvimento', 'Responsivo', 'Performance', 'SEO técnico', 'Publicação'];
 
 const services = [
   {
@@ -107,15 +106,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="capabilities" aria-label="Capacidades">
-          <div className="section-shell capabilities-inner">
-            {capabilities.map((item) => (
-              <span key={item} className="capability" data-reveal>
-                {item}
-              </span>
-            ))}
-          </div>
-        </section>
+        <TechMarquee />
 
         <section className="manifesto section-shell">
           <div className="manifesto-label" data-reveal>
@@ -145,16 +136,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="case-list">
-            {projects.map((project, index) => (
-              <ProjectCaseCard
-                key={project.id}
-                project={project}
-                align={index % 2 === 0 ? 'left' : 'right'}
-                eager={index === 0}
-              />
-            ))}
-          </div>
+          <HoverExpand items={projects} />
         </section>
 
         <section className="services section-shell" aria-label="Serviços">
