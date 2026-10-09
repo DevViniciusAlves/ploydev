@@ -194,6 +194,11 @@ Se não houver Instagram válido e ativo:
 
 **DESCARTAR IMEDIATAMENTE E BUSCAR OUTRO. SE VC NAO ACHAR O INSTA, DESCARTA ESSE LEAD E COLOCA OUTRO VÁLIDO NO LUGAR. NUNCA ENTREGAR SEM @.**
 
+### REGRA ANTI-PREGUIÇA (OBRIGATÓRIA — EU VALIDO TUDO, O USUÁRIO NÃO VALIDA NADA):
+- PROIBIDO entregar `Validar @`, `validar número`, `validar cidade`, `não localizado`, `a confirmar`, `antes do disparo`, `[NOME]`, `(NOME)` ou qualquer placeholder.
+- Se eu não achei o @ exato aberto e confirmado → DESCARTA e busca outro. Nunca transfiro a validação para o usuário.
+- O usuário NÃO vai validar porra nenhuma. Sou EU que valido tudo antes de entregar.
+
 ### Sinais de Instagram bom para esta versão:
 - posta com frequência (últimos 30-60 dias);
 - tem portfólio / trabalhos / produtos no feed;
@@ -230,7 +235,7 @@ Regras:
 
 Se não houver WhatsApp confirmado com número exato:
 
-**DESCARTAR.**
+**DESCARTAR IMEDIATAMENTE E BUSCAR OUTRO. Sem WhatsApp válido não entrega. EU valido o número exato antes — o usuário NÃO valida nada. PROIBIDO entregar `validar número` ou `antes do disparo`.**
 
 ### Prioridade de confirmação:
 1. Link da bio do Instagram / botão WhatsApp do Instagram;
@@ -419,28 +424,11 @@ Não inventar problemas ou oportunidades. Se o cliente já possui site funcional
 
 ---
 
-## 15. ABORDAGEM OFICIAL (PADRÃO DO PRINT — USAR NA ENTREGA)
+## 15. ABORDAGEM OFICIAL — SOMENTE Ei DM SEM PREÇO (ÚNICA VÁLIDA)
 
-> Abordagem padrão de entrega deste documento é a do §20 (modelo do print). NÃO substitui as regras de validação (§1–§14, §21–§24).
+> ÚNICA abordagem válida neste documento. Qualquer outra (Olá, Sou Vinicius, R$550, print antigo) está REMOVIDA e NÃO deve ser usada.
 
-ESTRUTURA OBRIGATÓRIA (4 BLOCOS): (se não achar o nome do responsável, remove o nome
-
-Ei [NOME], eu estava olhando teu perfil e achei legal demais o seu trabalho com elétrica.
-
-Só notei que você ainda não possui um site, e isso te faz perder muitas vendas. Vivemos na era digital e é muito importante ter uma estrutura profissional pra aumentar as vendas.
-
-O que acha de nós montarmos essa estrutura pra você por um valor praticamente irrisório pelo resultado que isso pode te gerar, faz sentido pra você?
-
-
-```text
-Ei [NOME], eu estava olhando teu perfil e achei legal demais o seu trabalho.
-
-Só notei que você ainda não possui um site, e isso te faz perder muitas vendas. Vivemos na era digital e é muito importante ter uma estrutura profissional pra aumentar as vendas.
-
-O que acha de nós montarmos essa estrutura pra você por um valor praticamente irrisório pelo resultado que isso pode te gerar, faz sentido pra você?
-```
-
-EXEMPLO BASE:
+ESTRUTURA OBRIGATÓRIA (3 BLOCOS — se não achar o nome, remove o nome e manda limpo):
 
 ```text
 Ei [NOME], eu estava olhando teu perfil e achei legal demais o seu trabalho.
@@ -552,15 +540,13 @@ Também não usar na primeira mensagem:
 
 Na primeira abordagem NÃO listar: páginas, funcionalidades, SEO, domínio, hospedagem, tecnologias, animações, integrações, estrutura do site. A primeira mensagem vende a CONVERSA — a proposta vem depois do interesse.
 
-## 18. APRESENTAÇÃO OBRIGATÓRIA NO PADRÃO DO PRINT
+## 18. SEM APRESENTAÇÃO CORPORATIVA — SOMENTE Ei
 
-No formato oficial de entrega (§20), USAR sempre `Olá! Tudo bem? Sou Vinicius, da PloyDev Sites profissionais.` + `Estou selecionando alguns negócios de [NICHO]...`.
-
-Na variação DM informal "Ei" (só quando pedida), NÃO usar "Sou Vinicius". São dois modos separados.
+Nesta doc NÃO usar "Olá", NÃO usar "Sou Vinicius", NÃO usar "Estou selecionando negócios", NÃO usar "R$550" — REMOVIDOS. A abertura é sempre `Ei [NOME], eu estava olhando teu perfil...` ou, sem nome, `Ei, eu estava...` limpo.
 
 Se não houver nome real:
 
-**DESCARTAR.**
+**NÃO DESCARTAR — TIRA O [NOME] e manda `Ei, eu estava...` limpo.**
 
 ## 18B. NÃO INVENTAR DORES
 
@@ -587,7 +573,7 @@ Só usar o que foi confirmado olhando o perfil. Não inventar elogio genérico s
 
 ---
 
-## 20. FORMATO FINAL DE ENTREGA (OFICIAL — IGUAL AO PRINT)
+## 20. FORMATO FINAL DE ENTREGA (OFICIAL — ESTRUTURA DO PRINT + ABORDAGEM Ei)
 
 Para cada lead, mandar exatamente neste modelo, nesta ordem, com estes rótulos:
 
@@ -628,16 +614,14 @@ Motivo de ser um bom lead:
 Abordagem:
 
 ```text
-Olá! Tudo bem? Sou Vinicius, da PloyDev Sites profissionais.
+Ei [NOME], eu estava olhando teu perfil e achei legal demais o seu trabalho.
 
-Estou selecionando alguns negócios de [nicho] para criar um site profissional ou landing page estratégica e encontrei a [NOME DO NEGÓCIO].
+Só notei que você ainda não possui um site, e isso te faz perder muitas vendas. Vivemos na era digital e é muito importante ter uma estrutura profissional pra aumentar as vendas.
 
-A ideia é criar um site que [benefício específico + prova real — ex: apresente melhor os serviços e as avaliações 5 estrelas, facilitando que novos clientes encontrem vocês].
-
-Posso te mostrar um exemplo sem compromisso?
+O que acha de nós montarmos essa estrutura pra você por um valor praticamente irrisório pelo resultado que isso pode te gerar, faz sentido pra você?
 ```
 
-EXEMPLO OFICIAL (NÃO MUDAR A ESTRUTURA):
+EXEMPLO OFICIAL (NÃO MUDAR A ESTRUTURA — ABORDAGEM SOMENTE Ei):
 
 10. CLIMATHOL — BRASÍLIA (AR-CONDICIONADO)
 
@@ -676,21 +660,19 @@ Nota máxima sem vitrine — página com prova social captaria no Google local.
 Abordagem:
 
 ```text
-Olá! Tudo bem? Sou Vinicius, da PloyDev Sites profissionais.
+Ei, eu estava olhando teu perfil e achei legal demais o seu trabalho.
 
-Estou selecionando alguns negócios de climatização para criar um site profissional ou landing page estratégica e encontrei a Climathol.
+Só notei que você ainda não possui um site, e isso te faz perder muitas vendas. Vivemos na era digital e é muito importante ter uma estrutura profissional pra aumentar as vendas.
 
-A ideia é criar um site que apresente melhor os serviços e as avaliações 5 estrelas, facilitando que novos clientes encontrem vocês.
-
-Posso te mostrar um exemplo sem compromisso?
+O que acha de nós montarmos essa estrutura pra você por um valor praticamente irrisório pelo resultado que isso pode te gerar, faz sentido pra você?
 ```
 
 Regras do formato:
 1. Título sempre: `N. NOME — CIDADE (NICHO)` em maiúsculas.
 2. Rótulos com dois-pontos, valor na linha de baixo, com linha em branco entre blocos (igual ao print).
 3. Gatilho e Motivo: 1 linha cada, curtos, específicos, sem texto longo.
-4. Abordagem sempre no padrão `Olá! Tudo bem? Sou Vinicius... Estou selecionando... encontrei a X... A ideia é criar um site que... Posso te mostrar um exemplo sem compromisso?` — personalizar apenas [nicho], [NOME DO NEGÓCIO] e [benefício específico].
-5. Sem preço na abordagem deste formato. Sem técnico (SEO, domínio, hospedagem).
+4. Abordagem SEMPRE no padrão Ei DM sem preço (3 blocos acima). Personalizar apenas o 1º bloco com 1 detalhe real quando houver. Se não tiver nome, TIRA O [NOME] e manda `Ei, eu estava...` limpo. NUNCA usar Olá / Sou Vinicius / R$550 / selecionando negócios nesta doc — REMOVIDOS.
+5. Sem preço exato, sem técnico (SEO, domínio, hospedagem).
 6. REGRA DO RESPONSÁVEL SEM NOME: quando NÃO achar o nome real, TIRA O (NOME) — usar apenas `Equipe [NOME DO NEGÓCIO]`, sem parênteses, sem "(nome não público...)", sem "[NOME]", sem placeholder. NUNCA deixar "(NOME)", "[NOME]" ou "(nome...)" visível na entrega. NÃO descartar por isso neste formato (exceção à §9).
 7. Na abordagem e no título, NUNCA deixar placeholder à mostra. Se não tem o dado, tira e escreve limpo.
 
@@ -726,11 +708,9 @@ O que filtrar (eliminar) — mesmas do WPP + Insta:
 
 O que mandar (só lead completo):
 
-- negócio real + ativo + Instagram ativo + sem site + WhatsApp exato + responsável (ou Equipe X) + gatilho real + abordagem no padrão do print (§20).
+- negócio real + ativo + Instagram ativo com @ exato + sem site + WhatsApp exato + responsável (ou Equipe X limpo) + cidade-UF real + gatilho real + abordagem Ei (§20).
 
-Não colocar observações do tipo "não encontrei o responsável" ou "instagram não encontrado" ou "[NOME]".
-
-O candidato simplesmente não entra. Se faltar Insta: DESCARTA E BUSCA OUTRO ATÉ COMPLETAR A QUANTIDADE SÓ COM VÁLIDOS.
+PROIBIDO entregar com `validar`, `não localizado`, `a confirmar`, `antes do disparo`, `[NOME]`, `(NOME)` ou placeholder. EU valido TUDO antes. O usuário NÃO valida nada. Se faltar qualquer campo (Insta, Whats, cidade, @, número): DESCARTA E BUSCA OUTRO ATÉ COMPLETAR A QUANTIDADE SÓ COM VÁLIDOS.
 
 ---
 
@@ -815,6 +795,8 @@ Nunca (lista literal do WPP §24 + Insta):
 - entregar responsável desconhecido (exceto `Equipe X` limpo permitido no §20);
 - entregar empresa com site funcional;
 - entregar lead SEM INSTAGRAM — SE NÃO ACHAR O INSTA, DESCARTA ESSE LEAD E BUSCA OUTRO VÁLIDO NO LUGAR;
+- entregar lead SEM WHATSAPP EXATO — sem número não entrega, busca outro;
+- entregar lead SEM CIDADE-UF real — sem região não entrega, busca outro;
 - entregar perfil privado / parado como lead;
 - repetir cliente (nem da base WPP nem INSTA);
 - parar cedo;
@@ -822,7 +804,8 @@ Nunca (lista literal do WPP §24 + Insta):
 - depender de uma única fonte;
 - criar problema genérico;
 - copiar a mesma abordagem para todos;
-- deixar "[NOME]", "(NOME)" ou placeholder visível.
+- deixar "[NOME]", "(NOME)", `validar`, `não localizado`, `a confirmar`, `antes do disparo` ou qualquer placeholder visível;
+- mandar o usuário validar qualquer coisa — EU VALIDO TUDO, o usuário NÃO valida nada.
 
 Se um candidato falhar:
 
