@@ -415,18 +415,9 @@ body.route-entering .route-transition {
   filter: blur(0);
   transform: translate3d(0, 0, 0);
 }
-@media (prefers-reduced-motion: reduce) {
-  .blur-reveal .blur-word-inner {
-    opacity: 1;
-    filter: none;
-    transform: none;
-    transition: none;
-  }
-  .he-panel,
-  .he-caption,
-  .he-shade {
-    transition: none;
-  }}
+/* Single motion identity: BlurReveal / hover-expand keep their full
+   animation on every browser. No prefers-reduced-motion shortcut here —
+   touch adaptations live only under `@media (pointer: coarse)`. */
 
 [data-parallax] {
   transform: translate3d(0, var(--parallax-y, 0), 0);
@@ -984,14 +975,8 @@ a:hover .rolling-text > span:nth-child(2) {
     transform: translate3d(-50%, 0, 0);
   }
 }
-@media (prefers-reduced-motion: reduce) {
-  .marquee-track {
-    animation: none;
-  }
-  .tech-marquee {
-    overflow-x: auto;
-  }
-}
+/* Single motion identity: TechMarquee keeps looping on every browser.
+   No prefers-reduced-motion shortcut here. */
 
 /* ---------- 11 Services ---------- */
 .services-grid {

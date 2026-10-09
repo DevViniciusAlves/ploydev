@@ -13,7 +13,16 @@ export default function useTransitionNavigate() {
 
     if (isTransitioning) return;
 
+    // Clicking the current route: no overlay, no timers.
+    if (window.location.pathname === to) return;
+
     isTransitioning = true;
+
+    const release = () => {
+      document.body.classList.remove('route-leaving');
+      document.body.classList.remove('route-entering');
+      isTransitioning = false;
+    };
 
     document.body.classList.add('route-leaving');
 
@@ -25,8 +34,7 @@ export default function useTransitionNavigate() {
       document.body.classList.add('route-entering');
 
       window.setTimeout(() => {
-        document.body.classList.remove('route-entering');
-        isTransitioning = false;
+        release();
       }, 700);
     }, 620);
   };
