@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import MagneticLink from './MagneticLink.jsx';
 import RollingText from './RollingText.jsx';
 import TransitionLink from './TransitionLink.jsx';
+import ArrowIcon from './ArrowIcon.jsx';
 import { SITE, createWhatsAppUrl, WHATSAPP_MESSAGES } from '../config/site.js';
 
 const links = [
@@ -115,7 +116,7 @@ export default function Header() {
             rel="noreferrer"
             tabIndex={menuOpen ? 0 : -1}
           >
-            Solicitar orçamento · {SITE.whatsappDisplay} ↗︎
+            Solicitar orçamento · {SITE.whatsappDisplay} <ArrowIcon direction="up-right" />
           </a>
         </nav>
       </div>

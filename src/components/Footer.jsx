@@ -1,4 +1,5 @@
 import TransitionLink from './TransitionLink.jsx';
+import ArrowIcon from './ArrowIcon.jsx';
 import { SITE, createWhatsAppUrl, WHATSAPP_MESSAGES } from '../config/site.js';
 
 function InstagramIcon() {
@@ -106,7 +107,7 @@ export default function Footer() {
               <InstagramIcon />
               <span>{SITE.instagramLabel}</span>
               <span className="footer-social-arrow" aria-hidden="true">
-                ↗︎
+                <ArrowIcon direction="up-right" />
               </span>
             </a>
           </div>

@@ -2,6 +2,7 @@ import SEO from '../components/SEO.jsx';
 import RevealText from '../components/RevealText.jsx';
 import WhatsAppCTA from '../components/WhatsAppCTA.jsx';
 import TransitionLink from '../components/TransitionLink.jsx';
+import ArrowIcon from '../components/ArrowIcon.jsx';
 import { WHATSAPP_MESSAGES } from '../config/site.js';
 
 export default function CaseBakuri() {
@@ -30,10 +31,10 @@ export default function CaseBakuri() {
               rel="noreferrer"
               className="button-primary"
             >
-              Abrir projeto ↗︎
+              Abrir projeto <ArrowIcon direction="up-right" />
             </a>
             <TransitionLink to="/projetos/gendaz" className="button-secondary">
-              Ver case gendaz →︎
+              Ver case gendaz <ArrowIcon />
             </TransitionLink>
           </div>
         </section>

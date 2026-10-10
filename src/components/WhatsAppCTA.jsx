@@ -1,4 +1,5 @@
 import MagneticLink from './MagneticLink.jsx';
+import ArrowIcon from './ArrowIcon.jsx';
 import { SITE, createWhatsAppUrl } from '../config/site.js';
 
 export default function WhatsAppCTA({ message, label = 'Falar no WhatsApp', magnetic = true }) {
@@ -8,7 +9,7 @@ export default function WhatsAppCTA({ message, label = 'Falar no WhatsApp', magn
     <>
       <span>{label}</span>
       <span>
-        {SITE.whatsappDisplay} <span aria-hidden="true">↗︎</span>
+        {SITE.whatsappDisplay} <ArrowIcon direction="up-right" />
       </span>
     </>
   );

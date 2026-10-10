@@ -1,6 +1,7 @@
 import SEO from '../components/SEO.jsx';
 import RevealText from '../components/RevealText.jsx';
 import TransitionLink from '../components/TransitionLink.jsx';
+import ArrowIcon from '../components/ArrowIcon.jsx';
 
 export default function NotFound() {
   return (
@@ -25,7 +26,7 @@ export default function NotFound() {
               Voltar para o início
             </TransitionLink>
             <TransitionLink to="/projetos" className="button-secondary">
-              Ver projetos →︎
+              Ver projetos <ArrowIcon />
             </TransitionLink>
           </div>
         </section>

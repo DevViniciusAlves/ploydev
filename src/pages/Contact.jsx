@@ -1,6 +1,7 @@
 import SEO from '../components/SEO.jsx';
 import RevealText from '../components/RevealText.jsx';
 import FAQ from '../components/FAQ.jsx';
+import ArrowIcon from '../components/ArrowIcon.jsx';
 import { SITE, createWhatsAppUrl, WHATSAPP_MESSAGES } from '../config/site.js';
 
 export default function Contact() {
@@ -62,7 +63,7 @@ export default function Contact() {
               <span className="contact-option-value">
                 {SITE.whatsappDisplay}
                 <span className="contact-option-arrow" aria-hidden="true">
-                  ↗︎
+                  <ArrowIcon direction="up-right" />
                 </span>
               </span>
             </a>
@@ -103,7 +104,7 @@ export default function Contact() {
               <span className="contact-option-value">
                 {SITE.email}
                 <span className="contact-option-arrow" aria-hidden="true">
-                  ↗︎
+                  <ArrowIcon direction="up-right" />
                 </span>
               </span>
             </a>

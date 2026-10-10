@@ -2,6 +2,7 @@ import SEO from '../components/SEO.jsx';
 import RevealText from '../components/RevealText.jsx';
 import TransitionLink from '../components/TransitionLink.jsx';
 import WhatsAppCTA from '../components/WhatsAppCTA.jsx';
+import ArrowIcon from '../components/ArrowIcon.jsx';
 import { WHATSAPP_MESSAGES } from '../config/site.js';
 
 const services = [
@@ -58,7 +59,7 @@ export default function Services() {
                 <h2>{service.title}</h2>
                 <p>{service.text}</p>
                 <span className="service-card-link">
-                  Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
+                  Entender melhor <span className="case-link-arrow" aria-hidden="true"><ArrowIcon /></span>
                 </span>
               </TransitionLink>
             ))}

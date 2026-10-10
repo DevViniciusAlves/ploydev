@@ -796,6 +796,14 @@ a:hover .rolling-text > span:nth-child(2) {
   display: inline-block;
   transition: transform var(--motion-base) var(--ease-out-expo);
 }
+/* ArrowIcon — SVG inline que herda cor/tamanho do texto (nunca vira emoji no iOS) */
+.arrow-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: none;
+  vertical-align: -0.12em;
+}
 .case-card:hover .case-link-arrow,
 .case-link:hover .case-link-arrow,
 .service-card:hover .case-link-arrow {
@@ -1422,7 +1430,7 @@ a:hover .rolling-text > span:nth-child(2) {
   border-top: 1px solid var(--line);
 }
 .check-list li::before {
-  content: "→︎";
+  content: "\2713";
   position: absolute;
   left: 0;
   color: var(--accent);

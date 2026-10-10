@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import TransitionLink from './TransitionLink.jsx';
+import ArrowIcon from './ArrowIcon.jsx';
 
 /**
  * HoverExpand — 3 colunas lado a lado; passar o mouse (ou tocar)
@@ -56,7 +57,7 @@ export default function HoverExpand({ items = [] }) {
                   className="he-link"
                   tabIndex={isActive ? 0 : -1}
                 >
-                  Ver case <span aria-hidden="true">→</span>
+                  Ver case <ArrowIcon />
                 </TransitionLink>
                 <a
                   href={project.url}
@@ -66,7 +67,7 @@ export default function HoverExpand({ items = [] }) {
                   tabIndex={isActive ? 0 : -1}
                   aria-label={`Abrir projeto ${project.title} em nova aba`}
                 >
-                  Abrir site <span aria-hidden="true">↗</span>
+                  Abrir site <ArrowIcon direction="up-right" />
                 </a>
               </div>
             </div>

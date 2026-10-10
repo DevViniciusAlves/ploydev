@@ -1,4 +1,5 @@
 import TransitionLink from './TransitionLink.jsx';
+import ArrowIcon from './ArrowIcon.jsx';
 
 export default function ServiceCard({ title, text, to }) {
   return (
@@ -6,7 +7,7 @@ export default function ServiceCard({ title, text, to }) {
       <h3>{title}</h3>
       <p>{text}</p>
       <span className="service-card-link">
-        Entender melhor <span className="case-link-arrow" aria-hidden="true">→︎</span>
+        Entender melhor <span className="case-link-arrow" aria-hidden="true"><ArrowIcon /></span>
       </span>
     </TransitionLink>
   );
