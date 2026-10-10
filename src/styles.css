@@ -957,9 +957,6 @@ a:hover .rolling-text > span:nth-child(2) {
   width: max-content;
   animation: marquee var(--marquee-duration, 40s) linear infinite;
 }
-.tech-marquee:hover .marquee-track {
-  animation-play-state: paused;
-}
 .marquee-group {
   display: flex;
   align-items: center;
